@@ -1,0 +1,19 @@
+{
+  "name": "time-creek",
+  "version": "0.0.1",
+  "description": "An extendable timeline",
+  "license": "MIT",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krauzer/time-creek.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/krauzer/time-creek/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
