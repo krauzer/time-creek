@@ -15,5 +15,16 @@ export class TimeTree {
     this.timeDetails.set(+date, {})
   }
 
+  sort(){
+    this.times.sort();
+    this.sorted = true;
+  }
+
+  setIntervals(){
+    if (!this.sorted) this.sort();
+    this.times.forEach((v,i,a) => {
+      if (a[i+1]) this.intervals.push(a[i+1] - v);
+    });
+  }
 
 }
