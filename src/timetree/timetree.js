@@ -27,4 +27,13 @@ export class TimeTree {
     });
   }
 
+  get times(){
+    if (!this.sorted) this.sort();
+    return this.times.slice();
+  }
+
+  get intervals(){
+    return this.intervals.slice();
+  }
+
 }
