@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "An extendable timeline",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register 'test/**/*.@(js)'"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krauzer/time-creek.git"
